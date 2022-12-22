@@ -26,7 +26,7 @@ From your command line, first clone Simplefolio:
 
 ```bash
 # Clone the repository
-$ git clone https://github.com/cobidev/simplefolio
+$ git clone https://github.com/pchawin40/PersonalPortfolio
 
 # Move into the repository
 $ cd simplefolio
