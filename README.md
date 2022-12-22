@@ -1,3 +1,6 @@
+## Live Link Example
+Site Link hosted on Netlify: https://pchawin40.netlify.app/
+
 ## Getting Started 🚀
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -26,7 +29,7 @@ From your command line, first clone Simplefolio:
 
 ```bash
 # Clone the repository
-$ git clone https://github.com/cobidev/simplefolio
+$ git clone https://github.com/pchawin40/PersonalPortfolio
 
 # Move into the repository
 $ cd simplefolio
