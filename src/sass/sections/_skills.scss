@@ -10,6 +10,13 @@
   }
 
   .skills-wrapper {
+    margin-bottom: 15rem;
+
+    @include respond(phone) {
+      margin-bottom: 0rem;
+      justify-content: center;
+    }
+
     .row {
       margin-bottom: 8rem;
 
@@ -23,7 +30,7 @@
       margin: 0 auto;
 
       @include respond(tab-land) {
-        width: 80%;
+        width: 100%;
         margin: 0;
 
         & .thumbnail {
