@@ -10,17 +10,11 @@
   }
 
   .skills-wrapper {
-    margin-bottom: 15rem;
-
-    @include respond(phone) {
-      margin-bottom: 0rem;
-    }
-
     .row {
       margin-bottom: 8rem;
 
       @include respond(phone) {
-        margin-bottom: 4rem;
+        margin-bottom: 0rem;
       }
     }
 
