@@ -58,10 +58,38 @@ export const targetElements = [
     },
   },
   {
+    element: ".skills-wrapper__image.left.outer",
+    animation: {
+      delay: 1000,
+      origin: window.innerWidth > 768 ? "left" : "bottom"
+    }
+  },
+  {
+    element: ".skills-wrapper__image.left.inner",
+    animation: {
+      delay: window.innerWidth > 768 ? 1200 : 1000,
+      origin: window.innerWidth > 768 ? "left" : "bottom"
+    }
+  },
+  {
+    element: ".skills-wrapper__image.right.inner",
+    animation: {
+      delay: window.innerWidth > 768 ? 1200 : 1000,
+      origin: window.innerWidth > 768 ? "right" : "bottom"
+    }
+  },
+  {
+    element: ".skills-wrapper__image.right.outer",
+    animation: {
+      delay: 1000,
+      origin: window.innerWidth > 768 ? "right" : "bottom"
+    }
+  },
+  {
     element: ".contact-wrapper",
     animation: {
       delay: 800,
       origin: "bottom",
     },
-  },
+  }
 ];
